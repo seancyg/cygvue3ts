@@ -1,14 +1,27 @@
 {
-  "name": "default_model",
+  "name": "cygvue3ts",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "seancyg"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seancyg/cygvue3ts"
+  },
+  "homepage": "https://github.com/seancyg",
+  "keywords": ["seancyg","vue3","ts","model","template"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "element-plus": "^2.2.11",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.3",
@@ -25,12 +38,14 @@
     "@vue/cli-service": "~5.0.0",
     "@vue/eslint-config-typescript": "^9.1.0",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^8.0.3",
-    "prettier": "^2.4.1",
+    "prettier": "^2.7.1",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
-    "typescript": "~4.5.5"
+    "typescript": "~4.5.5",
+    "unplugin-auto-import": "^0.10.3",
+    "unplugin-vue-components": "^0.21.2"
   }
 }
