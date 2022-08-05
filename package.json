@@ -11,7 +11,13 @@
     "url": "https://github.com/seancyg/cygvue3ts"
   },
   "homepage": "https://github.com/seancyg",
-  "keywords": ["seancyg","vue3","ts","model","template"],
+  "keywords": [
+    "seancyg",
+    "vue3",
+    "ts",
+    "model",
+    "template"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -36,6 +42,7 @@
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^9.1.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
